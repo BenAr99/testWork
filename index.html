@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fbf8ee">
+    <title>Ананасовый улун — Чайный Бум</title>
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <div class="brand">
+          <img src="assets/logo.png" alt="" width="52" height="52">
+          <span class="brand__text">
+            <span class="brand__name">Чайный Бум</span>
+            <span class="brand__caption">Интернет-магазин чая и посуды</span>
+          </span>
+        </div>
+        <div class="navigation">
+          <span>Каталог чая</span>
+          <span>Контакты</span>
+        </div>
+        <div class="header__phone">
+          +7 (495) 120-15-51
+          <span>Пн–пт, с 10:00 до 19:00</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="container main">
+      <div class="breadcrumbs">
+        <span>Главная</span><span class="breadcrumbs__separator">/</span>
+        <span>Каталог</span><span class="breadcrumbs__separator">/</span>
+        <span>Улун</span><span class="breadcrumbs__separator">/</span>
+        <span class="breadcrumbs__current">Ананасовый улун</span>
+      </div>
+
+      <article class="product">
+        <div class="product__visual">
+          <div class="product__photo">
+            <span class="product__badge">Чай с тропическим настроением</span>
+            <img src="assets/ananasoviy-ulun.jpg" alt="Скрученные листья ананасового улуна с разноцветными кусочками цукатов" width="970" height="970" fetchpriority="high">
+            <span class="product__origin"><span>КИТАЙ</span>Провинция Фуцзянь</span>
+          </div>
+          <div class="product__note">
+            <span class="leaf">❧</span>
+            <p>Хороший чай начинается с хорошего листа.</p>
+            <span class="product__note-line"></span>
+          </div>
+        </div>
+
+        <div class="product__details">
+          <span class="product__category">Светлый ароматизированный улун</span>
+          <h1>Ананасовый улун</h1>
+          <p class="product__intro">Нежный улун, сочный ананас<br class="desktop-break"> и немного тропического солнца в вашей чашке.</p>
+          <div class="product__meta">
+            <span class="availability">В наличии</span>
+            <span>Артикул: <span id="sku">01306</span></span>
+          </div>
+
+          <div class="purchase">
+            <fieldset class="packaging">
+              <legend>Выберите фасовку</legend>
+              <div class="packaging__options">
+                <label class="packaging__option">
+                  <input type="radio" name="weight" value="100" checked>
+                  <span>100 г</span>
+                </label>
+                <label class="packaging__option">
+                  <input type="radio" name="weight" value="500">
+                  <span>500 г</span>
+                </label>
+                <label class="packaging__option">
+                  <input type="radio" name="weight" value="1000">
+                  <span>1000 г</span>
+                </label>
+                <label class="packaging__option">
+                  <input type="radio" name="weight" value="5000">
+                  <span>5000 г</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="purchase__pricing">
+              <div>
+                <div class="purchase__previous">
+                  <s id="old-price">349,20 ₽</s>
+                  <span class="discount" id="discount">−7%</span>
+                </div>
+                <p class="purchase__price" id="price">326,40 ₽</p>
+              </div>
+              <span class="purchase__weight" id="price-weight">за 100 г</span>
+            </div>
+            <button class="cart-button" type="button">
+              <span>В корзину</span>
+              <span class="cart-button__arrow">↗</span>
+            </button>
+            <p class="purchase__caption">Упакуем в пакет, который сохранит вкус и аромат</p>
+          </div>
+
+          <section class="description">
+            <h2>Знакомство со вкусом</h2>
+            <p>Светлый фуцзяньский улун с ароматом спелого ананаса. Скрученные листья постепенно раскрываются, наполняя настой мягкими чайными и яркими фруктовыми нотами.</p>
+            <p class="description__ingredients"><span>Состав:</span> китайский бирюзовый чай, цукаты, натуральные ароматические масла.</p>
+          </section>
+        </div>
+      </article>
+
+      <section class="brewing">
+        <div class="brewing__heading">
+          <span class="brewing__symbol">♨</span>
+          <h2>Ваша идеальная чашка</h2>
+        </div>
+        <div class="brewing__facts">
+          <div>
+            <p class="brewing__label">Температура воды</p>
+            <p class="brewing__value">80–85 <span>°C</span></p>
+          </div>
+          <div>
+            <p class="brewing__label">Время заваривания</p>
+            <p class="brewing__value">1–3 <span>минуты</span></p>
+          </div>
+          <div>
+            <p class="brewing__label">На 500 мл воды</p>
+            <p class="brewing__value">2 <span>чайные ложки</span></p>
+          </div>
+        </div>
+      </section>
+      <section class="product-description">
+        <div class="product-description__header">
+          <h2>Описание</h2>
+          <span>Ананасовый улун</span>
+        </div>
+        <div class="product-description__body">
+          <p class="product-description__composition"><strong>Состав:</strong> китайский бирюзовый чай, цукаты, натуральные ароматические масла.</p>
+          <p>Светлый улун из китайской провинции Фуцзянь с ароматом ананаса. Крупные скрученные листья постепенно раскрываются в горячей воде, отдавая настою свой вкус и аромат. В прогретой посуде чувствуются ноты свежей зелени и спелого ананаса.</p>
+          <div class="product-description__sections">
+            <section>
+              <h3>Вкус и аромат</h3>
+              <p>Прозрачный настой светло-янтарного цвета. Мягкий вкус светлого фуцзяньского улуна дополняет яркая ананасовая нота.</p>
+            </section>
+            <section>
+              <h3>Особенности чая</h3>
+              <ul>
+                <li>Крупный, плотно скрученный лист.</li>
+                <li>Кусочки цукатов в составе.</li>
+                <li>Фруктовый аромат с нотами свежей зелени.</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container footer">
+      <span>Чайный Бум · Чай для хорошего дня</span>
+      <span>teaboom.ru</span>
+    </footer>
+  </body>
+</html>
